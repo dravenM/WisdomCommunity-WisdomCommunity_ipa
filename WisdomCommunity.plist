@@ -2,40 +2,39 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Root</key>
+    <key>items</key>
+	<array>
 	<dict>
-		<key>items</key>
-		<array>
-			<dict>
-				<key>assets</key>
-				<array>
-					<dict>
-						<key>kind</key>
-						<string>software-package</string>
-						<key>url</key>
-						<string>http://115.28.164.39/com/propertyapp/setup.ipa</string>
-					</dict>
-				</array>
-				<key>metadata</key>
-				<dict>
-					<key>bundle-identifier</key>
-					<string>com.lanou3g.oa</string>
-					<key>bundle-version</key>
-					<string>1.0</string>
-					<key>kind</key>
-					<string>software</string>
-					<key>title</key>
-					<string>智慧社区</string>
-				</dict>
-			</dict>
-		</array>
+	<key>assets</key>
+	<array>
+	<dict>
+	<key>kind</key>
+	<string>software-package</string>
+	<key>url</key>
+	<string>http://115.28.164.39/com/propertyapp/setup.ipa</string>
 	</dict>
+	</array>
+	<key>metadata</key>
+	<dict>
+	<key>bundle-identifier</key>
+	<string>com.lanou3g.oa</string>
+	<key>bundle-version</key>
+	<string>1.0</string>
+	<key>kind</key>
+	<string>software</string>
+	<key>title</key>
+	<string>智慧社区</string>
+	</dict>
+	</dict>
+	</array>
+	<key>UIViewEdgeAntialiasing</key>
+	<true/>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>zh_CN</string>
-	<key>CFBundleDisplayName</key>
-	<string>智慧社区</string>
+	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -43,28 +42,19 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>智能社区</string>
+	<string>智慧社区</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.02</string>
+	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.02</string>
+	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Always</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Always</string>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
+	<string>智慧社区要获取您的地理位置</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
